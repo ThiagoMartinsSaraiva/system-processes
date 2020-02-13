@@ -1,0 +1,19 @@
+{
+  "name": "system-processes",
+  "version": "1.0.0",
+  "description": "application to get OS informations",
+  "main": "./src/index.js",
+  "repository": "https://github.com/ThiagoMartinsSaraiva/system-processes",
+  "author": "ThiagoMartinsSaraiva <thiagomartinssaraiva@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "current-processes": "^0.2.1",
+    "lodash": "^4.17.15"
+  }
+}
