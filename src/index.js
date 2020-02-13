@@ -13,7 +13,7 @@ function getInfo(orderColumn, size) {
         console.log('\n')
       })
       setTimeout(() => {
-        getInfo('cpu', size)
+        getInfo(orderColumn, size)
       }, 1500);
     }
   })
